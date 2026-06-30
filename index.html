@@ -51,6 +51,10 @@
   .card:active{transform:translateY(-1px);}
   .card.lost:hover{border-color:var(--color-orange);}
   .card.cycling:hover{border-color:var(--color-teal);}
+  .card.season:hover{border-color:#7a39bb;}
+  .card.incident:hover{border-color:#c0392b;}
+  .card.season .card-btn{background:#7a39bb;color:#fff;}
+  .card.incident .card-btn{background:#c0392b;color:#fff;}
   .card-emoji{font-size:3rem;margin-bottom:0.9rem;line-height:1;}
   .card-title{font-family:var(--font-display);font-size:1.15rem;font-weight:800;margin-bottom:0.3rem;}
   .card-desc{font-size:0.85rem;color:var(--color-text-muted);line-height:1.45;margin-bottom:0.6rem;flex:1;}
@@ -122,6 +126,20 @@
       <div class="card-desc">Apply for a bicycle tag. Requires parent consent.</div>
       <div class="card-via"><span>via FormSG</span></div>
       <span class="card-btn">Apply Now</span>
+    </a>
+    <a class="card season" href="https://go.gov.sg/bdmsseasonparking" target="_blank" rel="noopener noreferrer">
+      <span class="card-emoji">🅿️</span>
+      <div class="card-title">Season Parking</div>
+      <div class="card-desc">Apply for or renew your season parking pass.</div>
+      <div class="card-via"><span>via FormSG</span></div>
+      <span class="card-btn">Apply Now</span>
+    </a>
+    <a class="card incident" href="https://go.gov.sg/bdms-incidentreportform" target="_blank" rel="noopener noreferrer">
+      <span class="card-emoji">📋</span>
+      <div class="card-title">Incident Report</div>
+      <div class="card-desc">Submit an incident report for any issue or event that requires follow-up.</div>
+      <div class="card-via"><span>via FormSG</span></div>
+      <span class="card-btn">Report Now</span>
     </a>
   </div>
 
